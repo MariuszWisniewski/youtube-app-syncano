@@ -1,0 +1,1611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011AC877281B937BADBD6F9B /* NSDictionary+MTLMappingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8C5C27DC67A8D8660ABEA8 /* NSDictionary+MTLMappingAdditions.h */; };
+		025CC17928475AEEC40B429D /* XCDYouTubeVideoWebpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1104A61D8A8AE38841A50136 /* XCDYouTubeVideoWebpage.h */; };
+		0275F6458E6FFDAADAB457F1 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEF6A8E99B8BA7B41F5BC51 /* UIWebView+AFNetworking.h */; };
+		059F6BBF54F75E1F45E00596 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D29E312841E1C7D480F250 /* UIAlertView+AFNetworking.h */; };
+		06E7165870AB5C0701C837B2 /* SCWebhookResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0B9C4EA4463DC38E85C19 /* SCWebhookResponseObject.m */; };
+		0777A1FB293F2CB2C3755370 /* Pods-youtube-app-syncano-UICKeyChainStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E5CDA2E92615ED33EB986E /* Pods-youtube-app-syncano-UICKeyChainStore-dummy.m */; };
+		077848768322397C71A92CA7 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90535AE17E01560CC1A1124F /* AFURLConnectionOperation.m */; };
+		07BD035FD85F46BCEC3E08C4 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1300A6E24263C08418A719 /* AFURLConnectionOperation.h */; };
+		089046F0153CC7642591D731 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CAD52D9B30500311F6C0C8 /* EXTRuntimeExtensions.h */; };
+		090DD8C0F902059622E497DA /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C15B74B20F514D7F664144 /* EXTKeyPathCoding.h */; };
+		0C466741487C5056D495A0D3 /* NSDictionary+MTLJSONKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE714FE79D8DF52E20AE2D9 /* NSDictionary+MTLJSONKeyPath.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0C8AFF131473DF7827AE2526 /* SCSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C292877EA01D2B743EE4BD /* SCSchema.h */; };
+		0E0F444EB04AF86165C59183 /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 521C38EB2EACAC9D2211FA92 /* MTLModel+NSCoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F436B5069B40D1FC9AE96B3 /* SCAPIClient+SCDataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F483CE8EB249EE01E2C90081 /* SCAPIClient+SCDataObject.h */; };
+		0FF99B909F802268D4F05CEB /* NSError+MTLModelException.h in Headers */ = {isa = PBXBuildFile; fileRef = 170324E5981F40CC0C31CF09 /* NSError+MTLModelException.h */; };
+		1012C6BD499B792D0701C7B0 /* Pods-youtube-app-syncano-Mantle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56035D53791DDCD733BA7D4D /* Pods-youtube-app-syncano-Mantle-dummy.m */; };
+		1AE3DA3B8E1AEF2B1B6879CF /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD69898D7BDD8BFDC4FC5B8 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1B158DBD20314ECE51BAE37B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628362E6ECDFC3945F86C946 /* CoreGraphics.framework */; };
+		1D5E1B77CEF1B04A8AA3DAD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713EACC4770AD5DC0D10B3FD /* Foundation.framework */; };
+		1E8FB43FB5230549581534D0 /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D865AF10AD60E842CC78275 /* MTLJSONAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		220E5DA7C77BEB9292DCDAB5 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D51FE559AFBEDC6F2DFB351 /* UIButton+AFNetworking.m */; };
+		23965BE7A606E6EB18ADF6E3 /* SCMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF76FFB68B7438F7DBB37B0 /* SCMacros.h */; };
+		24ED1F4B82B1DE0014B318BE /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C14C70E7C88F6B86114B8EC9 /* AFHTTPSessionManager.h */; };
+		28589D52D5C559F65064AF08 /* SCAPIClient+SCFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 097154DB116E571548B4C2D0 /* SCAPIClient+SCFile.m */; };
+		2A72A0DFDE10796AA9F70867 /* Mantle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9D4DC6F93ECB03CB70D429 /* Mantle.h */; };
+		2AD1BCCBC5FA6C446AE55A11 /* SCAPIClient+Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E25928B52847763A3BB083C /* SCAPIClient+Class.m */; };
+		2C795F1D2C65E38E1D59E404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713EACC4770AD5DC0D10B3FD /* Foundation.framework */; };
+		2EE24A765FF34860B602DBAA /* Pods-youtube-app-syncano-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCDE8C01D378D4DC992307D /* Pods-youtube-app-syncano-dummy.m */; };
+		3289FB502D5454436FA75457 /* MTLTransformerErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA87F58EDB6C399610447B /* MTLTransformerErrorHandling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		32C83DAEE546ED19DDB8C0ED /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A65D771863836FD2BADD71 /* SystemConfiguration.framework */; };
+		33036ED15867F884F314C575 /* SCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ECA23D85A546E1BE551034 /* SCConstants.m */; };
+		3319CA5140ABF22CC94CD8CF /* SCAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1AA6C89B2F6898A68A461C /* SCAPIClient.h */; };
+		3330A30D28E675F5697595C9 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1866AC84A686A3F281B0AABA /* AFHTTPRequestOperationManager.h */; };
+		34AAB77414DE2FF111F2EFFA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 49780CE4A5626EF3CE5AB980 /* UIRefreshControl+AFNetworking.h */; };
+		36070344CD6B5D6E5E50ACE8 /* NSObject+MTLComparisonAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C944AF9F0A688CA4F49D6F5A /* NSObject+MTLComparisonAdditions.h */; };
+		36B3E755D1926AB7F0074D52 /* SCPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEB7785A4A2111DDF465434 /* SCPredicate.h */; };
+		382BB053712CA1663D19F8FA /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E1407A9E0A9379DD76DF2C7D /* NSObject+MTLComparisonAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3848520F566825C470AD7309 /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4515507688AED1B0F33225 /* MTLValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		386A4F97F1C690835A1B4EC1 /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E50622F81BAA29EC91C3126 /* NSArray+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3ADE5DFCA63C8F35C7FC9978 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CA30A7912738E56D9C1A69A4 /* AFHTTPRequestOperation.h */; };
+		3CA4AB2ED174538939207E09 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5446A342219424F4ADC37A6 /* Security.framework */; };
+		3CD5941C1D6D940D57B87D84 /* Pods-youtube-app-syncano-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF30703966F854741992AF6 /* Pods-youtube-app-syncano-AFNetworking-dummy.m */; };
+		3E68BC6D20BDD9073E86C8CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713EACC4770AD5DC0D10B3FD /* Foundation.framework */; };
+		3EEE7F98E628C52BB185BC41 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A093C1C178E59AEE0A87FA /* MobileCoreServices.framework */; };
+		3F0C8108683DA95243C35263 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A542685B6823508C357AE3 /* metamacros.h */; };
+		3FBC5CE691B178EA65ED0B9B /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D378D02F2FCD0F19D05FAE66 /* AFHTTPRequestOperation.m */; };
+		4285C8D80EBC32646BDE1A44 /* XCDYouTubePlayerScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CDC6498CDD3BB3EA52AC98 /* XCDYouTubePlayerScript.h */; };
+		440BABD287095DD6C54A12DD /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B8B3F33DC5D8AEC345D4E /* XCDYouTubeVideo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		45205B3115BAE2754F9CCF77 /* NSValueTransformer+MTLInversionAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A78A9F3E07DCA97E32CD5162 /* NSValueTransformer+MTLInversionAdditions.h */; };
+		4575535F9594D61E4D68A590 /* MTLValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 66EE4985B17BCA0B7A306C24 /* MTLValueTransformer.h */; };
+		45CE2EF8BC70497AEC4989D0 /* XCDYouTubeVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0D90C7248CD240DC78AE8D /* XCDYouTubeVideo.h */; };
+		469804815BF07AFDDFBCFE66 /* SCParseManager+SCUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9346327D479F7C6B80FE6386 /* SCParseManager+SCUser.h */; };
+		499E6371ABD2BC8A06B18616 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1853675C632B2B47D5EB9E /* XCDYouTubePlayerScript.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4BF704C7F2E2E31E8310A025 /* NSDictionary+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58BA22EA5E14719ECCF124 /* NSDictionary+MTLManipulationAdditions.h */; };
+		4BFA3A647B6EF503E5494B38 /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D12ED5483E7AEFC82F68937 /* MTLReflection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4D4E6E1F1879CF5CEC446CDB /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = EE71FC33776CE08AC18A2005 /* AFURLResponseSerialization.h */; };
+		4D950DBDA803CBE85120AC98 /* SCParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E56A3B1A79935231CD3EDDB5 /* SCParseManager.m */; };
+		4F1AC06CA6546EE74E47210B /* SCTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = A2BE66C297719F287C203C01 /* SCTrace.h */; };
+		4F894C7AFF7F5D00214D1B86 /* Syncano.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBEB20EB85DE4250982B726 /* Syncano.m */; };
+		504D5C65AA07A8B1C902C65C /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A41874309E762B5668A7C4A3 /* UIActivityIndicatorView+AFNetworking.m */; };
+		514F65825D5442257C228DBA /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E559EE3027D0F8812AA352F1 /* XCDYouTubeLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		53ED4A1317EFBDF539E27E08 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F39779303144395B0B0B9C76 /* UIProgressView+AFNetworking.m */; };
+		5A0FAAF7BCA3C10BB4C27358 /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC61DAAA8F6CA1C26E1C016 /* NSDictionary+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5A3557E019F6D2158497B5CF /* NSDictionary+MTLMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD86A70866EDA47DC9114DE /* NSDictionary+MTLMappingAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C0052E7FC396C3BD290B623 /* SCPlease.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7400677168321ADFE7E44F /* SCPlease.m */; };
+		5D1F7E4D2EFC28EE07E95689 /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412E8ABF5BF1609D954AF9E /* XCDYouTubeVideoWebpage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5F04B1892D3D7EAA0084C545 /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DB40CFC95A14A793ED839D /* NSError+MTLModelException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		602F944888197120E8EE51E4 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F7CA61B402B8F7D641A635 /* UIImage+AFNetworking.h */; };
+		64BC3946D7B5CEB3D60F3F4B /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D954CF53BAC8B72B564A641 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		65056F8CD76199F5316BD497 /* SCParseManager+SCDataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A111BDDC06DBD0A0C108EF /* SCParseManager+SCDataObject.h */; };
+		651300D6A4F246956951F91D /* SCUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = AE28FE6BE4147A5E67C65774 /* SCUserProfile.m */; };
+		65EE218B2B7A88A0435D6274 /* SCTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A6EF58C546605CCA56749 /* SCTrace.m */; };
+		673182FF32B584F7BC205696 /* NSObject+SCParseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BF168C5A7508FEBC06054F72 /* NSObject+SCParseHelper.m */; };
+		67DBC27A7754FB06D756C1A6 /* NSObject+SCParseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F44523D2139B5864C84C2B5 /* NSObject+SCParseHelper.h */; };
+		6CF267E70042CB38F82E538C /* SCAPIClient+Class.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EB239B4D4D6C5CA1F69A2A /* SCAPIClient+Class.h */; };
+		6DBF2F830672A0B6DD783EF2 /* SCUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C64CDA2410978DC15749C09 /* SCUser.h */; };
+		6F28E761590C07F271740547 /* SCWebhookResponseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F3185FF02BAAA2ECFCF05C /* SCWebhookResponseObject.h */; };
+		70FDE01DB0B30A6A682884C6 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C481E5B1479D2ED3E37A66 /* UIButton+AFNetworking.h */; };
+		715DC7CDA0BDC1B441378D90 /* SCChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8333A3EB56B1EE94E53B8E0D /* SCChannel.h */; };
+		74202372D7026AA4CE360A35 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 08FCC010D9E146C5B51905D2 /* UIActivityIndicatorView+AFNetworking.h */; };
+		785D4D9FD043D8274DF77293 /* SCParseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C6639E090FEA2E24A578CA0A /* SCParseManager.h */; };
+		7AECF4CE7A9C81FC3FE663D1 /* SCDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A881953831C53294CE7D820 /* SCDataObject.m */; };
+		7BF912C0B8108C48F29A5126 /* SCParseManager+SCDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CF90E750F6871CA1A1EA3B /* SCParseManager+SCDataObject.m */; };
+		7C88E057A63ED35C839F0347 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F00C6D0A5A6143204020974 /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7FC15E2DF8B19A4C67F5378D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B5010FB36ADFD6C10BAF03 /* AFURLSessionManager.m */; };
+		7FDFAC32880A97193C199215 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C5DC418C75913CC761313E /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */; };
+		81771D73E935313E73B5559D /* SCAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA645A8C930D7E5F47429DA /* SCAPIClient.m */; };
+		83BCE9FE1AB1BBE71A8C3025 /* SCDataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E96D76A30AF226E82A5F66BC /* SCDataObject.h */; };
+		88365852E4D5D8D458CE63EA /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB0A40A40FE53C25835231 /* UICKeyChainStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		887943B6D7FFD94D03021434 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5189BBCE47B66E33796C36 /* AFHTTPRequestOperationManager.m */; };
+		8965C8C95262C9A5ECE9DF22 /* MTLTransformerErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 424105967786F9F3B63DDBB4 /* MTLTransformerErrorHandling.h */; };
+		89C9D1191F4825462F00E5ED /* XCDYouTubeLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F25F13AFB37C69A721D2C0C9 /* XCDYouTubeLogger.h */; };
+		8BB6DFF3CB834766DE2E8D43 /* SCJSONResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = BF58AF99D882FFCD36FEAC96 /* SCJSONResponseSerializer.h */; };
+		8BCFF0707E893C9DC22A1AEE /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEFEC584E9356697BD37155 /* XCDYouTubeClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8BDC6F513AEE93B441862D1C /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C1D432491C301F00CC9729 /* AFURLRequestSerialization.h */; };
+		8CD749EFB6CA064E13CEB71F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6C4FAFF0B9490A3C952B84 /* MediaPlayer.framework */; };
+		90A189288619505ADC84514E /* SCChannelNotificationMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D35BE808C0761A1AAD0D1F /* SCChannelNotificationMessage.m */; };
+		93C70F1F50BAE1F64DB03133 /* SCCodeBox.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5496BE2D0556E60E972C90 /* SCCodeBox.h */; };
+		95FAC7EE394B60578C572DA0 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8B7C5A72CC311B1043A010 /* AFNetworking.h */; };
+		965C6DE94C90463393DB46F4 /* SCPlease.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B729A94CF88AA204B05524 /* SCPlease.h */; };
+		971AD80F28504FF936851814 /* MTLModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDD29EE50E6B538F7FEA286 /* MTLModel.h */; };
+		98430BDE9D990D4816A4A7DB /* SCWebhook.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA2E1359D1CE609DA57690E /* SCWebhook.m */; };
+		9B2D2AEF6476AD07D22B03F3 /* SCChannelNotificationMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = C4077CB95C17AE6FF006D31A /* SCChannelNotificationMessage.h */; };
+		9B4A46A95DDAAC45BF2F9242 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 52AC9C1BCAACDE487371BE44 /* UIImageView+AFNetworking.h */; };
+		9D0EF5CFD473D13909D7BF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713EACC4770AD5DC0D10B3FD /* Foundation.framework */; };
+		9D3163DFA75C347BE5FB9CA9 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E4E8E40961678E0C33DF6 /* AFSecurityPolicy.m */; };
+		A18DC5E55D29999F42810F5F /* SCUserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F78D43BD838F65705600D1 /* SCUserProfile.h */; };
+		A2013E131A9A746BCC807B47 /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DF68A709D83339A10CBE82 /* NSValueTransformer+MTLInversionAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A444414CED0A28FD7E551FE3 /* SCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6641D939DC1763F36EBE09 /* SCUser.m */; };
+		A504835B80BD412E75A19429 /* XCDYouTubeVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC101340A9D9CE8B5D13CB5 /* XCDYouTubeVideoPlayerViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A7E43EC317CD3BBF6FA7B95A /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5232F17084839DF774CCC8DB /* AFURLSessionManager.h */; };
+		AB1F8138035E10C8A830F0AC /* MTLModel+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 0105D7709A431841AEA5AA60 /* MTLModel+NSCoding.h */; };
+		AD42FDD4AA98D35046FD77DF /* SCChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB05E8BB887F0C8BBC2AB18 /* SCChannelDelegate.h */; };
+		AE507C6541600B8C2C16F095 /* XCDYouTubeVideoOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 283677BBCB044635577BE1D7 /* XCDYouTubeVideoOperation.h */; };
+		AE7A1C1B03E564E385D0AB4B /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = F5236953D3AE13E7E5B240C8 /* EXTScope.h */; };
+		AEDF8024FF2CA342707D94A3 /* SCAPIClient+SCFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 76DE7945ED71197BFED02A15 /* SCAPIClient+SCFile.h */; };
+		B4179969233F3E27B6F9883C /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1363919B5864B061E32C5E66 /* UIKit+AFNetworking.h */; };
+		B6BDFA858677EFEA9B0F63F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713EACC4770AD5DC0D10B3FD /* Foundation.framework */; };
+		B7616FB0349C08822C27565B /* XCDYouTubeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B509ACD538CD7DF1A64DC996 /* XCDYouTubeOperation.h */; };
+		B7F33C8388E7E45D76369C2C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E4D1F84FAAC9E9457D8EBE /* AFHTTPSessionManager.m */; };
+		B9E259C6D31F808F46AE81F6 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DA7C49506F7C6E42F4395B17 /* AFNetworkActivityIndicatorManager.h */; };
+		BB5E2FB6378811124572C8CD /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FCBF1F7B90AAB00014BE80 /* UIRefreshControl+AFNetworking.m */; };
+		BB9F6A0EF87C961F496CF58C /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D353D0E874CC63E5CC2451A /* AFNetworkActivityIndicatorManager.m */; };
+		BD7C92E83325361B4F658B78 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5446A342219424F4ADC37A6 /* Security.framework */; };
+		BF622280B396AD95C5186755 /* SCCodeBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 443FE9B2EB8E9978E1CE65E3 /* SCCodeBox.m */; };
+		C13ADBEE02976ED7C2129235 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B87E87FCD39EE714AC915E6F /* AFURLResponseSerialization.m */; };
+		C22BD6DE86363ACCC77B61CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713EACC4770AD5DC0D10B3FD /* Foundation.framework */; };
+		C35CAB4163E8EB944AAB8855 /* MTLReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F955C63DFD5C1C2732CFB4A /* MTLReflection.h */; };
+		C60A3192BC408509FFE63156 /* XCDYouTubeVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB72628056045A150F529B1 /* XCDYouTubeVideo+Private.h */; };
+		C93A5F4522AAB68F0110EF13 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E95E546E42383A2F16F4C464 /* AFURLRequestSerialization.m */; };
+		CA708305FCA906EA4FBF488C /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F404DABAEDA21373D9905C /* UIAlertView+AFNetworking.m */; };
+		CAD20001A5033BD6FFFFFA2D /* XCDYouTubeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 315B32985040A101101FA566 /* XCDYouTubeKit.h */; };
+		CC1A12B6914CA2C77316E834 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDA6562C5F31E848193A3A8 /* AFSecurityPolicy.h */; };
+		CC3C184D0DA8DB44B70F2E94 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B32ABE507A5DBE4CDB816FC4 /* AFNetworkReachabilityManager.m */; };
+		CFB34B45FFCB15BECEBF2478 /* SCParseManager+SCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F3902EBE09530747E6F687ED /* SCParseManager+SCUser.m */; };
+		D1217FEFACB313DB605A5CD8 /* Syncano.h in Headers */ = {isa = PBXBuildFile; fileRef = ED913E3CF1B1B7DFDDF150B4 /* Syncano.h */; };
+		D34438EA99C989DAF71A9432 /* SCWebhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 91044EFA1464791DF0A926AA /* SCWebhook.h */; };
+		D47BE1119A5AEEF4CA6CFED3 /* SCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = CE54C85586B029F03E1F3C75 /* SCConstants.h */; };
+		D52BFDBCF5451FB85F267718 /* SCJSONResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D49EF916FA0CAB809E879D9 /* SCJSONResponseSerializer.m */; };
+		D9E0206ED074336781CECF2D /* Pods-youtube-app-syncano-XCDYouTubeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1055BB2D3EDCBB0793F382 /* Pods-youtube-app-syncano-XCDYouTubeKit-dummy.m */; };
+		DA71D9B34B92C86B40C8D95A /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F06D61C9F590EA7FE807A17 /* UIWebView+AFNetworking.m */; };
+		DD23765CDF10ADB960D24C6D /* SCFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C5A21548B3AD5D4AD5F3E /* SCFile.m */; };
+		E0E0515F2813E18DBFDF409A /* SCFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B5B2BB242042FE45E06CB4 /* SCFile.h */; };
+		E122AE052A1C56EBE2B22170 /* SCChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA900E452A798CB6E94918E1 /* SCChannel.m */; };
+		E27745F565BB71D2ACA1A1A9 /* SCPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDA884006DAB7BE214F8F2F /* SCPredicate.m */; };
+		E3EAB311E0064CB13960E00E /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A83A0CDC4D910057C9C862 /* MTLModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E5FF8F0B2FB7A07ECF3B7B8A /* XCDYouTubeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B79933F2CDB98F5746B1ED9 /* XCDYouTubeClient.h */; };
+		E61C21DF334D8B8F3E409CA4 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C751A5A7F61E13892CDA3F /* UIImageView+AFNetworking.m */; };
+		E8F13C02164CDE5DD34E7CD1 /* XCDYouTubeError.h in Headers */ = {isa = PBXBuildFile; fileRef = 06A0320E227FA68DD1927691 /* XCDYouTubeError.h */; };
+		EA97B701AE6FD661CB036C68 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BC764B546F770DB2EBD6C3 /* UIProgressView+AFNetworking.h */; };
+		EC5CFA341703F4DAD1893972 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1872281B5E5F11395FF96EC6 /* AFNetworkReachabilityManager.h */; };
+		EEAF972F2DD16455B370C5BB /* UICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0D8E1C8CC3599BAE61824C /* UICKeyChainStore.h */; };
+		F300D55597A5D74FB71FA463 /* NSDictionary+MTLJSONKeyPath.h in Headers */ = {isa = PBXBuildFile; fileRef = EF92CA7E984FA5608A2D8B61 /* NSDictionary+MTLJSONKeyPath.h */; };
+		F69AB8C589712E6D116FE62E /* Pods-youtube-app-syncano-syncano-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFED50D48F6D0660168B0FA /* Pods-youtube-app-syncano-syncano-ios-dummy.m */; };
+		F765B0C30C1660F2275B5E3F /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B22238178184DEC4E69B1 /* XCDYouTubeVideoOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F77866A54A1938089882D196 /* XCDYouTubeVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B26FAD88A4E0E5D2E37F26B0 /* XCDYouTubeVideoPlayerViewController.h */; };
+		FB16D9C694A09D95BAF0AF4B /* MTLJSONAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = D250DCEAD5EC2DAADEC12EB1 /* MTLJSONAdapter.h */; };
+		FC95353276AE351963FB3D94 /* NSArray+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A13E26728AED430E59CDE40F /* NSArray+MTLManipulationAdditions.h */; };
+		FCDB901176A5B19AA34CB5A4 /* SCSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A2D91312E46456D383F29A /* SCSchema.m */; };
+		FFE0D2272A1A88FD62327BDB /* SCAPIClient+SCDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE07CD306D270D5181BC7D6 /* SCAPIClient+SCDataObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11650A02267963C4153D9E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44C50EBB1CD039F91D02A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFACB756A30D3C868DF58594;
+			remoteInfo = "Pods-youtube-app-syncano-AFNetworking";
+		};
+		36E3175B4433C446A789632E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44C50EBB1CD039F91D02A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5DAE9B086A8F98F55595477;
+			remoteInfo = "Pods-youtube-app-syncano-Mantle";
+		};
+		4E3FFD02A038BF89090F11E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44C50EBB1CD039F91D02A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5274005284B25AFB876C1038;
+			remoteInfo = "Pods-youtube-app-syncano-UICKeyChainStore";
+		};
+		9C5C01BBF8A7C256F41B346F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44C50EBB1CD039F91D02A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFACB756A30D3C868DF58594;
+			remoteInfo = "Pods-youtube-app-syncano-AFNetworking";
+		};
+		A77D8D57247DF29C7AD17113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44C50EBB1CD039F91D02A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5274005284B25AFB876C1038;
+			remoteInfo = "Pods-youtube-app-syncano-UICKeyChainStore";
+		};
+		D5A25B9C7EB13FD0ED6A08E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44C50EBB1CD039F91D02A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5DAE9B086A8F98F55595477;
+			remoteInfo = "Pods-youtube-app-syncano-Mantle";
+		};
+		F04BFA0A7B0FF6B17132839D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44C50EBB1CD039F91D02A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E67E38EA0D484A9A2A5607A4;
+			remoteInfo = "Pods-youtube-app-syncano-syncano-ios";
+		};
+		F7821A1E24447BDB22488D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44C50EBB1CD039F91D02A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D305EF999CA04B7F76DC7B3;
+			remoteInfo = "Pods-youtube-app-syncano-XCDYouTubeKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0105D7709A431841AEA5AA60 /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTLModel+NSCoding.h"; path = "Mantle/MTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		03F7CA61B402B8F7D641A635 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		05C751A5A7F61E13892CDA3F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		06A0320E227FA68DD1927691 /* XCDYouTubeError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeError.h; path = XCDYouTubeKit/XCDYouTubeError.h; sourceTree = "<group>"; };
+		06DB40CFC95A14A793ED839D /* NSError+MTLModelException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+MTLModelException.m"; path = "Mantle/NSError+MTLModelException.m"; sourceTree = "<group>"; };
+		08FCC010D9E146C5B51905D2 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		097154DB116E571548B4C2D0 /* SCAPIClient+SCFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SCAPIClient+SCFile.m"; path = "syncano-ios/SCAPIClient+SCFile.m"; sourceTree = "<group>"; };
+		097C5A21548B3AD5D4AD5F3E /* SCFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCFile.m; path = "syncano-ios/SCFile.m"; sourceTree = "<group>"; };
+		0D51FE559AFBEDC6F2DFB351 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		0F29C0034D2E62E388A4C4C4 /* Pods-youtube-app-syncano-XCDYouTubeKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-app-syncano-XCDYouTubeKit-Private.xcconfig"; sourceTree = "<group>"; };
+		10FCBF1F7B90AAB00014BE80 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		1104A61D8A8AE38841A50136 /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoWebpage.h; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.h; sourceTree = "<group>"; };
+		11465EB46DA335B984615EDB /* Pods-youtube-app-syncano-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-youtube-app-syncano-resources.sh"; sourceTree = "<group>"; };
+		1363919B5864B061E32C5E66 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		170324E5981F40CC0C31CF09 /* NSError+MTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+MTLModelException.h"; path = "Mantle/NSError+MTLModelException.h"; sourceTree = "<group>"; };
+		1866AC84A686A3F281B0AABA /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		1872281B5E5F11395FF96EC6 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		1BB05E8BB887F0C8BBC2AB18 /* SCChannelDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCChannelDelegate.h; path = "syncano-ios/SCChannelDelegate.h"; sourceTree = "<group>"; };
+		1BBEB20EB85DE4250982B726 /* Syncano.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Syncano.m; path = "syncano-ios/Syncano.m"; sourceTree = "<group>"; };
+		1C1300A6E24263C08418A719 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		1D1055BB2D3EDCBB0793F382 /* Pods-youtube-app-syncano-XCDYouTubeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-youtube-app-syncano-XCDYouTubeKit-dummy.m"; sourceTree = "<group>"; };
+		1D6C4FAFF0B9490A3C952B84 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		1D865AF10AD60E842CC78275 /* MTLJSONAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLJSONAdapter.m; path = Mantle/MTLJSONAdapter.m; sourceTree = "<group>"; };
+		1DD82B4297A6FDA945AA3626 /* Pods-youtube-app-syncano-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-youtube-app-syncano-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DF30703966F854741992AF6 /* Pods-youtube-app-syncano-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-youtube-app-syncano-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		1EEF6A8E99B8BA7B41F5BC51 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		1F06D61C9F590EA7FE807A17 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		1F1B8B3F33DC5D8AEC345D4E /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideo.m; path = XCDYouTubeKit/XCDYouTubeVideo.m; sourceTree = "<group>"; };
+		24332B105FD4A4AC03C55E30 /* Pods-youtube-app-syncano-XCDYouTubeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-youtube-app-syncano-XCDYouTubeKit-prefix.pch"; sourceTree = "<group>"; };
+		27BC764B546F770DB2EBD6C3 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		27DBC9BC34CC106C1DB8BEB4 /* libPods-youtube-app-syncano-Mantle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-youtube-app-syncano-Mantle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		283677BBCB044635577BE1D7 /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoOperation.h; path = XCDYouTubeKit/XCDYouTubeVideoOperation.h; sourceTree = "<group>"; };
+		28F3185FF02BAAA2ECFCF05C /* SCWebhookResponseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCWebhookResponseObject.h; path = "syncano-ios/SCWebhookResponseObject.h"; sourceTree = "<group>"; };
+		2A43CD692637BD2A6C75FBD6 /* libPods-youtube-app-syncano-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-youtube-app-syncano-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A58BA22EA5E14719ECCF124 /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLManipulationAdditions.h"; path = "Mantle/NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		2AEFEC584E9356697BD37155 /* XCDYouTubeClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeClient.m; path = XCDYouTubeKit/XCDYouTubeClient.m; sourceTree = "<group>"; };
+		2C458A70410BE9F1974AB0B6 /* Pods-youtube-app-syncano-syncano-ios-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-app-syncano-syncano-ios-Private.xcconfig"; sourceTree = "<group>"; };
+		2E6641D939DC1763F36EBE09 /* SCUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCUser.m; path = "syncano-ios/SCUser.m"; sourceTree = "<group>"; };
+		2F1AA6C89B2F6898A68A461C /* SCAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCAPIClient.h; path = "syncano-ios/SCAPIClient.h"; sourceTree = "<group>"; };
+		30A093C1C178E59AEE0A87FA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		30B8922AE13BBBFB57DC0530 /* Pods-youtube-app-syncano-UICKeyChainStore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-app-syncano-UICKeyChainStore.xcconfig"; sourceTree = "<group>"; };
+		30C15B74B20F514D7F664144 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = Mantle/extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		315B32985040A101101FA566 /* XCDYouTubeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeKit.h; path = XCDYouTubeKit/XCDYouTubeKit.h; sourceTree = "<group>"; };
+		325E96E5A597F2CFE757C0E2 /* Pods-youtube-app-syncano-UICKeyChainStore-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-app-syncano-UICKeyChainStore-Private.xcconfig"; sourceTree = "<group>"; };
+		33F404DABAEDA21373D9905C /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		34C481E5B1479D2ED3E37A66 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		38A111BDDC06DBD0A0C108EF /* SCParseManager+SCDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCParseManager+SCDataObject.h"; path = "syncano-ios/SCParseManager+SCDataObject.h"; sourceTree = "<group>"; };
+		3C64CDA2410978DC15749C09 /* SCUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCUser.h; path = "syncano-ios/SCUser.h"; sourceTree = "<group>"; };
+		3CFC918215982B5E3CC3A93C /* Pods-youtube-app-syncano-syncano-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-youtube-app-syncano-syncano-ios-prefix.pch"; sourceTree = "<group>"; };
+		3E50622F81BAA29EC91C3126 /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MTLManipulationAdditions.m"; path = "Mantle/NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		40B729A94CF88AA204B05524 /* SCPlease.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCPlease.h; path = "syncano-ios/SCPlease.h"; sourceTree = "<group>"; };
+		424105967786F9F3B63DDBB4 /* MTLTransformerErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLTransformerErrorHandling.h; path = Mantle/MTLTransformerErrorHandling.h; sourceTree = "<group>"; };
+		443FE9B2EB8E9978E1CE65E3 /* SCCodeBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCCodeBox.m; path = "syncano-ios/SCCodeBox.m"; sourceTree = "<group>"; };
+		45F78D43BD838F65705600D1 /* SCUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCUserProfile.h; path = "syncano-ios/SCUserProfile.h"; sourceTree = "<group>"; };
+		46A542685B6823508C357AE3 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = Mantle/extobjc/metamacros.h; sourceTree = "<group>"; };
+		47B5010FB36ADFD6C10BAF03 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		48038A7030995B63160854E8 /* Pods-youtube-app-syncano-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-youtube-app-syncano-environment.h"; sourceTree = "<group>"; };
+		49780CE4A5626EF3CE5AB980 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		49C5DC418C75913CC761313E /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		4A21203042B2E74D96A7D5E3 /* Pods-youtube-app-syncano-Mantle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-youtube-app-syncano-Mantle-prefix.pch"; sourceTree = "<group>"; };
+		4BDD29EE50E6B538F7FEA286 /* MTLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLModel.h; path = Mantle/MTLModel.h; sourceTree = "<group>"; };
+		4CFED50D48F6D0660168B0FA /* Pods-youtube-app-syncano-syncano-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-youtube-app-syncano-syncano-ios-dummy.m"; sourceTree = "<group>"; };
+		4F4515507688AED1B0F33225 /* MTLValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLValueTransformer.m; path = Mantle/MTLValueTransformer.m; sourceTree = "<group>"; };
+		4F955C63DFD5C1C2732CFB4A /* MTLReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLReflection.h; path = Mantle/MTLReflection.h; sourceTree = "<group>"; };
+		4FC28EAE6C55F502828345F6 /* Pods-youtube-app-syncano-XCDYouTubeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-app-syncano-XCDYouTubeKit.xcconfig"; sourceTree = "<group>"; };
+		517A6EF58C546605CCA56749 /* SCTrace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCTrace.m; path = "syncano-ios/SCTrace.m"; sourceTree = "<group>"; };
+		521C38EB2EACAC9D2211FA92 /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTLModel+NSCoding.m"; path = "Mantle/MTLModel+NSCoding.m"; sourceTree = "<group>"; };
+		5231E6E6764E6BD66927B93B /* Pods-youtube-app-syncano-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-app-syncano-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		5232F17084839DF774CCC8DB /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		52AC9C1BCAACDE487371BE44 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		56035D53791DDCD733BA7D4D /* Pods-youtube-app-syncano-Mantle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-youtube-app-syncano-Mantle-dummy.m"; sourceTree = "<group>"; };
+		57E4D1F84FAAC9E9457D8EBE /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		5A881953831C53294CE7D820 /* SCDataObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCDataObject.m; path = "syncano-ios/SCDataObject.m"; sourceTree = "<group>"; };
+		5F00C6D0A5A6143204020974 /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = Mantle/extobjc/EXTScope.m; sourceTree = "<group>"; };
+		61A2D91312E46456D383F29A /* SCSchema.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCSchema.m; path = "syncano-ios/SCSchema.m"; sourceTree = "<group>"; };
+		61CDC6498CDD3BB3EA52AC98 /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubePlayerScript.h; path = XCDYouTubeKit/XCDYouTubePlayerScript.h; sourceTree = "<group>"; };
+		61CF90E750F6871CA1A1EA3B /* SCParseManager+SCDataObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SCParseManager+SCDataObject.m"; path = "syncano-ios/SCParseManager+SCDataObject.m"; sourceTree = "<group>"; };
+		628362E6ECDFC3945F86C946 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		66EE4985B17BCA0B7A306C24 /* MTLValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLValueTransformer.h; path = Mantle/MTLValueTransformer.h; sourceTree = "<group>"; };
+		68D35BE808C0761A1AAD0D1F /* SCChannelNotificationMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCChannelNotificationMessage.m; path = "syncano-ios/SCChannelNotificationMessage.m"; sourceTree = "<group>"; };
+		6C0D90C7248CD240DC78AE8D /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideo.h; path = XCDYouTubeKit/XCDYouTubeVideo.h; sourceTree = "<group>"; };
+		713EACC4770AD5DC0D10B3FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76DE7945ED71197BFED02A15 /* SCAPIClient+SCFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCAPIClient+SCFile.h"; path = "syncano-ios/SCAPIClient+SCFile.h"; sourceTree = "<group>"; };
+		793FFCF9CFB6D284ECE43250 /* Pods-youtube-app-syncano-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-youtube-app-syncano-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		7B8C5C27DC67A8D8660ABEA8 /* NSDictionary+MTLMappingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLMappingAdditions.h"; path = "Mantle/NSDictionary+MTLMappingAdditions.h"; sourceTree = "<group>"; };
+		7BCDE8C01D378D4DC992307D /* Pods-youtube-app-syncano-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-youtube-app-syncano-dummy.m"; sourceTree = "<group>"; };
+		7D353D0E874CC63E5CC2451A /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		7E25928B52847763A3BB083C /* SCAPIClient+Class.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SCAPIClient+Class.m"; path = "syncano-ios/SCAPIClient+Class.m"; sourceTree = "<group>"; };
+		7EEB7785A4A2111DDF465434 /* SCPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCPredicate.h; path = "syncano-ios/SCPredicate.h"; sourceTree = "<group>"; };
+		7F9D4DC6F93ECB03CB70D429 /* Mantle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mantle.h; path = Mantle/Mantle.h; sourceTree = "<group>"; };
+		80A83A0CDC4D910057C9C862 /* MTLModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLModel.m; path = Mantle/MTLModel.m; sourceTree = "<group>"; };
+		8333A3EB56B1EE94E53B8E0D /* SCChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCChannel.h; path = "syncano-ios/SCChannel.h"; sourceTree = "<group>"; };
+		83CAD52D9B30500311F6C0C8 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = Mantle/extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		8412E8ABF5BF1609D954AF9E /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoWebpage.m; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.m; sourceTree = "<group>"; };
+		84EB239B4D4D6C5CA1F69A2A /* SCAPIClient+Class.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCAPIClient+Class.h"; path = "syncano-ios/SCAPIClient+Class.h"; sourceTree = "<group>"; };
+		89A2CA8AB67E440FC9E49641 /* libPods-youtube-app-syncano.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-youtube-app-syncano.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADB0A40A40FE53C25835231 /* UICKeyChainStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UICKeyChainStore.m; path = Lib/UICKeyChainStore/UICKeyChainStore.m; sourceTree = "<group>"; };
+		8B0D8E1C8CC3599BAE61824C /* UICKeyChainStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICKeyChainStore.h; path = Lib/UICKeyChainStore/UICKeyChainStore.h; sourceTree = "<group>"; };
+		8D49EF916FA0CAB809E879D9 /* SCJSONResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCJSONResponseSerializer.m; path = "syncano-ios/SCJSONResponseSerializer.m"; sourceTree = "<group>"; };
+		8F44523D2139B5864C84C2B5 /* NSObject+SCParseHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SCParseHelper.h"; path = "syncano-ios/NSObject+SCParseHelper.h"; sourceTree = "<group>"; };
+		8FEA87F58EDB6C399610447B /* MTLTransformerErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLTransformerErrorHandling.m; path = Mantle/MTLTransformerErrorHandling.m; sourceTree = "<group>"; };
+		90535AE17E01560CC1A1124F /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		91044EFA1464791DF0A926AA /* SCWebhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCWebhook.h; path = "syncano-ios/SCWebhook.h"; sourceTree = "<group>"; };
+		9346327D479F7C6B80FE6386 /* SCParseManager+SCUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCParseManager+SCUser.h"; path = "syncano-ios/SCParseManager+SCUser.h"; sourceTree = "<group>"; };
+		99A65D771863836FD2BADD71 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		9B79933F2CDB98F5746B1ED9 /* XCDYouTubeClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeClient.h; path = XCDYouTubeKit/XCDYouTubeClient.h; sourceTree = "<group>"; };
+		9D12ED5483E7AEFC82F68937 /* MTLReflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLReflection.m; path = Mantle/MTLReflection.m; sourceTree = "<group>"; };
+		9D954CF53BAC8B72B564A641 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
+		9DC0B9C4EA4463DC38E85C19 /* SCWebhookResponseObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCWebhookResponseObject.m; path = "syncano-ios/SCWebhookResponseObject.m"; sourceTree = "<group>"; };
+		9FE714FE79D8DF52E20AE2D9 /* NSDictionary+MTLJSONKeyPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLJSONKeyPath.m"; path = "Mantle/NSDictionary+MTLJSONKeyPath.m"; sourceTree = "<group>"; };
+		A13E26728AED430E59CDE40F /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MTLManipulationAdditions.h"; path = "Mantle/NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		A2BE66C297719F287C203C01 /* SCTrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCTrace.h; path = "syncano-ios/SCTrace.h"; sourceTree = "<group>"; };
+		A2E5CDA2E92615ED33EB986E /* Pods-youtube-app-syncano-UICKeyChainStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-youtube-app-syncano-UICKeyChainStore-dummy.m"; sourceTree = "<group>"; };
+		A41874309E762B5668A7C4A3 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		A7830CC1A0E6B70D24C64188 /* libPods-youtube-app-syncano-XCDYouTubeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-youtube-app-syncano-XCDYouTubeKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78A9F3E07DCA97E32CD5162 /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLInversionAdditions.h"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
+		AACD28E21853AC715E95F8CB /* Pods-youtube-app-syncano-Mantle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-app-syncano-Mantle.xcconfig"; sourceTree = "<group>"; };
+		ABA2E1359D1CE609DA57690E /* SCWebhook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCWebhook.m; path = "syncano-ios/SCWebhook.m"; sourceTree = "<group>"; };
+		AC844527134AC07C00D8B02D /* Pods-youtube-app-syncano.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-app-syncano.debug.xcconfig"; sourceTree = "<group>"; };
+		AD0B22238178184DEC4E69B1 /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoOperation.m; path = XCDYouTubeKit/XCDYouTubeVideoOperation.m; sourceTree = "<group>"; };
+		AE28FE6BE4147A5E67C65774 /* SCUserProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCUserProfile.m; path = "syncano-ios/SCUserProfile.m"; sourceTree = "<group>"; };
+		B0D29E312841E1C7D480F250 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		B26FAD88A4E0E5D2E37F26B0 /* XCDYouTubeVideoPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoPlayerViewController.h; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.h; sourceTree = "<group>"; };
+		B32ABE507A5DBE4CDB816FC4 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		B509ACD538CD7DF1A64DC996 /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeOperation.h; path = XCDYouTubeKit/XCDYouTubeOperation.h; sourceTree = "<group>"; };
+		B87E87FCD39EE714AC915E6F /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		BAB72628056045A150F529B1 /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeVideo+Private.h"; path = "XCDYouTubeKit/XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; };
+		BCE07CD306D270D5181BC7D6 /* SCAPIClient+SCDataObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SCAPIClient+SCDataObject.m"; path = "syncano-ios/SCAPIClient+SCDataObject.m"; sourceTree = "<group>"; };
+		BDD69898D7BDD8BFDC4FC5B8 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = Mantle/extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		BDDA6562C5F31E848193A3A8 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		BF168C5A7508FEBC06054F72 /* NSObject+SCParseHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SCParseHelper.m"; path = "syncano-ios/NSObject+SCParseHelper.m"; sourceTree = "<group>"; };
+		BF5496BE2D0556E60E972C90 /* SCCodeBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCCodeBox.h; path = "syncano-ios/SCCodeBox.h"; sourceTree = "<group>"; };
+		BF58AF99D882FFCD36FEAC96 /* SCJSONResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCJSONResponseSerializer.h; path = "syncano-ios/SCJSONResponseSerializer.h"; sourceTree = "<group>"; };
+		C14C70E7C88F6B86114B8EC9 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		C4077CB95C17AE6FF006D31A /* SCChannelNotificationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCChannelNotificationMessage.h; path = "syncano-ios/SCChannelNotificationMessage.h"; sourceTree = "<group>"; };
+		C6639E090FEA2E24A578CA0A /* SCParseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCParseManager.h; path = "syncano-ios/SCParseManager.h"; sourceTree = "<group>"; };
+		C7C292877EA01D2B743EE4BD /* SCSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCSchema.h; path = "syncano-ios/SCSchema.h"; sourceTree = "<group>"; };
+		C944AF9F0A688CA4F49D6F5A /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTLComparisonAdditions.h"; path = "Mantle/NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		CA30A7912738E56D9C1A69A4 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CAC101340A9D9CE8B5D13CB5 /* XCDYouTubeVideoPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoPlayerViewController.m; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.m; sourceTree = "<group>"; };
+		CDB8DCD7D6AB7137B9C80280 /* Pods-youtube-app-syncano-Mantle-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-app-syncano-Mantle-Private.xcconfig"; sourceTree = "<group>"; };
+		CDDF34EE75383185434B9DFE /* libPods-youtube-app-syncano-syncano-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-youtube-app-syncano-syncano-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE54C85586B029F03E1F3C75 /* SCConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCConstants.h; path = "syncano-ios/SCConstants.h"; sourceTree = "<group>"; };
+		D06E4E8E40961678E0C33DF6 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		D250DCEAD5EC2DAADEC12EB1 /* MTLJSONAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLJSONAdapter.h; path = Mantle/MTLJSONAdapter.h; sourceTree = "<group>"; };
+		D378D02F2FCD0F19D05FAE66 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		D704C00A41827B52C8F3C0A2 /* Pods-youtube-app-syncano-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-app-syncano-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		D82306E1E0F0B8C71A425C56 /* libPods-youtube-app-syncano-UICKeyChainStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-youtube-app-syncano-UICKeyChainStore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7C49506F7C6E42F4395B17 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		DA900E452A798CB6E94918E1 /* SCChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCChannel.m; path = "syncano-ios/SCChannel.m"; sourceTree = "<group>"; };
+		DB1853675C632B2B47D5EB9E /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubePlayerScript.m; path = XCDYouTubeKit/XCDYouTubePlayerScript.m; sourceTree = "<group>"; };
+		DEA645A8C930D7E5F47429DA /* SCAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCAPIClient.m; path = "syncano-ios/SCAPIClient.m"; sourceTree = "<group>"; };
+		DF7400677168321ADFE7E44F /* SCPlease.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCPlease.m; path = "syncano-ios/SCPlease.m"; sourceTree = "<group>"; };
+		E1407A9E0A9379DD76DF2C7D /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MTLComparisonAdditions.m"; path = "Mantle/NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
+		E143580D58129FDE7247500D /* Pods-youtube-app-syncano.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-app-syncano.release.xcconfig"; sourceTree = "<group>"; };
+		E3C1D432491C301F00CC9729 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		E559EE3027D0F8812AA352F1 /* XCDYouTubeLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeLogger.m; path = XCDYouTubeKit/XCDYouTubeLogger.m; sourceTree = "<group>"; };
+		E56A3B1A79935231CD3EDDB5 /* SCParseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCParseManager.m; path = "syncano-ios/SCParseManager.m"; sourceTree = "<group>"; };
+		E5B5B2BB242042FE45E06CB4 /* SCFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCFile.h; path = "syncano-ios/SCFile.h"; sourceTree = "<group>"; };
+		E5DF68A709D83339A10CBE82 /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLInversionAdditions.m"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
+		E6713C6F95A243B371E55655 /* Pods-youtube-app-syncano-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-youtube-app-syncano-acknowledgements.plist"; sourceTree = "<group>"; };
+		E95E546E42383A2F16F4C464 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		E96D76A30AF226E82A5F66BC /* SCDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCDataObject.h; path = "syncano-ios/SCDataObject.h"; sourceTree = "<group>"; };
+		EB9801D1CE901B224F518B71 /* Pods-youtube-app-syncano-syncano-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-app-syncano-syncano-ios.xcconfig"; sourceTree = "<group>"; };
+		ED5189BBCE47B66E33796C36 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		ED913E3CF1B1B7DFDDF150B4 /* Syncano.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Syncano.h; path = "syncano-ios/Syncano.h"; sourceTree = "<group>"; };
+		EE71FC33776CE08AC18A2005 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		EF92CA7E984FA5608A2D8B61 /* NSDictionary+MTLJSONKeyPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLJSONKeyPath.h"; path = "Mantle/NSDictionary+MTLJSONKeyPath.h"; sourceTree = "<group>"; };
+		F1ECA23D85A546E1BE551034 /* SCConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCConstants.m; path = "syncano-ios/SCConstants.m"; sourceTree = "<group>"; };
+		F25F13AFB37C69A721D2C0C9 /* XCDYouTubeLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeLogger.h; path = XCDYouTubeKit/XCDYouTubeLogger.h; sourceTree = "<group>"; };
+		F3902EBE09530747E6F687ED /* SCParseManager+SCUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SCParseManager+SCUser.m"; path = "syncano-ios/SCParseManager+SCUser.m"; sourceTree = "<group>"; };
+		F39779303144395B0B0B9C76 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		F483CE8EB249EE01E2C90081 /* SCAPIClient+SCDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCAPIClient+SCDataObject.h"; path = "syncano-ios/SCAPIClient+SCDataObject.h"; sourceTree = "<group>"; };
+		F5236953D3AE13E7E5B240C8 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = Mantle/extobjc/EXTScope.h; sourceTree = "<group>"; };
+		F5446A342219424F4ADC37A6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		FB8B7C5A72CC311B1043A010 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		FB8E4B872D1AB11A8BF1A8F1 /* Pods-youtube-app-syncano-UICKeyChainStore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-youtube-app-syncano-UICKeyChainStore-prefix.pch"; sourceTree = "<group>"; };
+		FBA7B7FE77CF194931B4CCBC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FDD86A70866EDA47DC9114DE /* NSDictionary+MTLMappingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLMappingAdditions.m"; path = "Mantle/NSDictionary+MTLMappingAdditions.m"; sourceTree = "<group>"; };
+		FEC61DAAA8F6CA1C26E1C016 /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLManipulationAdditions.m"; path = "Mantle/NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		FFDA884006DAB7BE214F8F2F /* SCPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCPredicate.m; path = "syncano-ios/SCPredicate.m"; sourceTree = "<group>"; };
+		FFF76FFB68B7438F7DBB37B0 /* SCMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCMacros.h; path = "syncano-ios/SCMacros.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040D076D4FFD010A67B87EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22BD6DE86363ACCC77B61CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4F7696C49798D9CB5BBD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BDFA858677EFEA9B0F63F7 /* Foundation.framework in Frameworks */,
+				3CA4AB2ED174538939207E09 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465439D9C10B62EF1C295610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0EF5CFD473D13909D7BF74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F13DC2562BD8BC2B67DA44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E68BC6D20BDD9073E86C8CB /* Foundation.framework in Frameworks */,
+				8CD749EFB6CA064E13CEB71F /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA61774B03A5D58FCBE33D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C795F1D2C65E38E1D59E404 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD68808F502977C9010E2F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B158DBD20314ECE51BAE37B /* CoreGraphics.framework in Frameworks */,
+				1D5E1B77CEF1B04A8AA3DAD1 /* Foundation.framework in Frameworks */,
+				3EEE7F98E628C52BB185BC41 /* MobileCoreServices.framework in Frameworks */,
+				BD7C92E83325361B4F658B78 /* Security.framework in Frameworks */,
+				32C83DAEE546ED19DDB8C0ED /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E15526546244E3784D4318 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5231E6E6764E6BD66927B93B /* Pods-youtube-app-syncano-AFNetworking.xcconfig */,
+				D704C00A41827B52C8F3C0A2 /* Pods-youtube-app-syncano-AFNetworking-Private.xcconfig */,
+				1DF30703966F854741992AF6 /* Pods-youtube-app-syncano-AFNetworking-dummy.m */,
+				793FFCF9CFB6D284ECE43250 /* Pods-youtube-app-syncano-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-youtube-app-syncano-AFNetworking";
+			sourceTree = "<group>";
+		};
+		169EC94DB5D4EA33BF1A7DA6 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				1872281B5E5F11395FF96EC6 /* AFNetworkReachabilityManager.h */,
+				B32ABE507A5DBE4CDB816FC4 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		245743DCA32B2A310AB01B7F /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				C14C70E7C88F6B86114B8EC9 /* AFHTTPSessionManager.h */,
+				57E4D1F84FAAC9E9457D8EBE /* AFHTTPSessionManager.m */,
+				5232F17084839DF774CCC8DB /* AFURLSessionManager.h */,
+				47B5010FB36ADFD6C10BAF03 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		2620F6E6FA6062570BA4F133 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DA7C49506F7C6E42F4395B17 /* AFNetworkActivityIndicatorManager.h */,
+				7D353D0E874CC63E5CC2451A /* AFNetworkActivityIndicatorManager.m */,
+				08FCC010D9E146C5B51905D2 /* UIActivityIndicatorView+AFNetworking.h */,
+				A41874309E762B5668A7C4A3 /* UIActivityIndicatorView+AFNetworking.m */,
+				B0D29E312841E1C7D480F250 /* UIAlertView+AFNetworking.h */,
+				33F404DABAEDA21373D9905C /* UIAlertView+AFNetworking.m */,
+				34C481E5B1479D2ED3E37A66 /* UIButton+AFNetworking.h */,
+				0D51FE559AFBEDC6F2DFB351 /* UIButton+AFNetworking.m */,
+				03F7CA61B402B8F7D641A635 /* UIImage+AFNetworking.h */,
+				52AC9C1BCAACDE487371BE44 /* UIImageView+AFNetworking.h */,
+				05C751A5A7F61E13892CDA3F /* UIImageView+AFNetworking.m */,
+				1363919B5864B061E32C5E66 /* UIKit+AFNetworking.h */,
+				27BC764B546F770DB2EBD6C3 /* UIProgressView+AFNetworking.h */,
+				F39779303144395B0B0B9C76 /* UIProgressView+AFNetworking.m */,
+				49780CE4A5626EF3CE5AB980 /* UIRefreshControl+AFNetworking.h */,
+				10FCBF1F7B90AAB00014BE80 /* UIRefreshControl+AFNetworking.m */,
+				1EEF6A8E99B8BA7B41F5BC51 /* UIWebView+AFNetworking.h */,
+				1F06D61C9F590EA7FE807A17 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		2736C5C19A75C8D0D88B8450 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				628362E6ECDFC3945F86C946 /* CoreGraphics.framework */,
+				713EACC4770AD5DC0D10B3FD /* Foundation.framework */,
+				1D6C4FAFF0B9490A3C952B84 /* MediaPlayer.framework */,
+				30A093C1C178E59AEE0A87FA /* MobileCoreServices.framework */,
+				F5446A342219424F4ADC37A6 /* Security.framework */,
+				99A65D771863836FD2BADD71 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2BDB92CD717C5F8A67CCFA9C /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				D250DCEAD5EC2DAADEC12EB1 /* MTLJSONAdapter.h */,
+				1D865AF10AD60E842CC78275 /* MTLJSONAdapter.m */,
+				4BDD29EE50E6B538F7FEA286 /* MTLModel.h */,
+				80A83A0CDC4D910057C9C862 /* MTLModel.m */,
+				0105D7709A431841AEA5AA60 /* MTLModel+NSCoding.h */,
+				521C38EB2EACAC9D2211FA92 /* MTLModel+NSCoding.m */,
+				4F955C63DFD5C1C2732CFB4A /* MTLReflection.h */,
+				9D12ED5483E7AEFC82F68937 /* MTLReflection.m */,
+				424105967786F9F3B63DDBB4 /* MTLTransformerErrorHandling.h */,
+				8FEA87F58EDB6C399610447B /* MTLTransformerErrorHandling.m */,
+				66EE4985B17BCA0B7A306C24 /* MTLValueTransformer.h */,
+				4F4515507688AED1B0F33225 /* MTLValueTransformer.m */,
+				7F9D4DC6F93ECB03CB70D429 /* Mantle.h */,
+				A13E26728AED430E59CDE40F /* NSArray+MTLManipulationAdditions.h */,
+				3E50622F81BAA29EC91C3126 /* NSArray+MTLManipulationAdditions.m */,
+				EF92CA7E984FA5608A2D8B61 /* NSDictionary+MTLJSONKeyPath.h */,
+				9FE714FE79D8DF52E20AE2D9 /* NSDictionary+MTLJSONKeyPath.m */,
+				2A58BA22EA5E14719ECCF124 /* NSDictionary+MTLManipulationAdditions.h */,
+				FEC61DAAA8F6CA1C26E1C016 /* NSDictionary+MTLManipulationAdditions.m */,
+				7B8C5C27DC67A8D8660ABEA8 /* NSDictionary+MTLMappingAdditions.h */,
+				FDD86A70866EDA47DC9114DE /* NSDictionary+MTLMappingAdditions.m */,
+				170324E5981F40CC0C31CF09 /* NSError+MTLModelException.h */,
+				06DB40CFC95A14A793ED839D /* NSError+MTLModelException.m */,
+				C944AF9F0A688CA4F49D6F5A /* NSObject+MTLComparisonAdditions.h */,
+				E1407A9E0A9379DD76DF2C7D /* NSObject+MTLComparisonAdditions.m */,
+				A78A9F3E07DCA97E32CD5162 /* NSValueTransformer+MTLInversionAdditions.h */,
+				E5DF68A709D83339A10CBE82 /* NSValueTransformer+MTLInversionAdditions.m */,
+				49C5DC418C75913CC761313E /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */,
+				9D954CF53BAC8B72B564A641 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */,
+				44265E829DA9E3A9D929878A /* Support Files */,
+				97E9B46A2F5F09916C2C9AF2 /* extobjc */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		31862F9F9ED153A2CD4C701B /* UICKeyChainStore */ = {
+			isa = PBXGroup;
+			children = (
+				8B0D8E1C8CC3599BAE61824C /* UICKeyChainStore.h */,
+				8ADB0A40A40FE53C25835231 /* UICKeyChainStore.m */,
+				85A36992016DA829E5648FF2 /* Support Files */,
+			);
+			path = UICKeyChainStore;
+			sourceTree = "<group>";
+		};
+		323267384F8A29F3C2424DD8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9801D1CE901B224F518B71 /* Pods-youtube-app-syncano-syncano-ios.xcconfig */,
+				2C458A70410BE9F1974AB0B6 /* Pods-youtube-app-syncano-syncano-ios-Private.xcconfig */,
+				4CFED50D48F6D0660168B0FA /* Pods-youtube-app-syncano-syncano-ios-dummy.m */,
+				3CFC918215982B5E3CC3A93C /* Pods-youtube-app-syncano-syncano-ios-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-youtube-app-syncano-syncano-ios";
+			sourceTree = "<group>";
+		};
+		44265E829DA9E3A9D929878A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AACD28E21853AC715E95F8CB /* Pods-youtube-app-syncano-Mantle.xcconfig */,
+				CDB8DCD7D6AB7137B9C80280 /* Pods-youtube-app-syncano-Mantle-Private.xcconfig */,
+				56035D53791DDCD733BA7D4D /* Pods-youtube-app-syncano-Mantle-dummy.m */,
+				4A21203042B2E74D96A7D5E3 /* Pods-youtube-app-syncano-Mantle-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-youtube-app-syncano-Mantle";
+			sourceTree = "<group>";
+		};
+		44604EF351E8197864731155 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87F05458853EC90DE35E677A /* Pods-youtube-app-syncano */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5C22CC61EAF115C41E315A70 /* XCDYouTubeKit */ = {
+			isa = PBXGroup;
+			children = (
+				9B79933F2CDB98F5746B1ED9 /* XCDYouTubeClient.h */,
+				2AEFEC584E9356697BD37155 /* XCDYouTubeClient.m */,
+				06A0320E227FA68DD1927691 /* XCDYouTubeError.h */,
+				315B32985040A101101FA566 /* XCDYouTubeKit.h */,
+				F25F13AFB37C69A721D2C0C9 /* XCDYouTubeLogger.h */,
+				E559EE3027D0F8812AA352F1 /* XCDYouTubeLogger.m */,
+				B509ACD538CD7DF1A64DC996 /* XCDYouTubeOperation.h */,
+				61CDC6498CDD3BB3EA52AC98 /* XCDYouTubePlayerScript.h */,
+				DB1853675C632B2B47D5EB9E /* XCDYouTubePlayerScript.m */,
+				6C0D90C7248CD240DC78AE8D /* XCDYouTubeVideo.h */,
+				1F1B8B3F33DC5D8AEC345D4E /* XCDYouTubeVideo.m */,
+				BAB72628056045A150F529B1 /* XCDYouTubeVideo+Private.h */,
+				283677BBCB044635577BE1D7 /* XCDYouTubeVideoOperation.h */,
+				AD0B22238178184DEC4E69B1 /* XCDYouTubeVideoOperation.m */,
+				B26FAD88A4E0E5D2E37F26B0 /* XCDYouTubeVideoPlayerViewController.h */,
+				CAC101340A9D9CE8B5D13CB5 /* XCDYouTubeVideoPlayerViewController.m */,
+				1104A61D8A8AE38841A50136 /* XCDYouTubeVideoWebpage.h */,
+				8412E8ABF5BF1609D954AF9E /* XCDYouTubeVideoWebpage.m */,
+				BC32E7DFDF0E86D094A9372E /* Support Files */,
+			);
+			path = XCDYouTubeKit;
+			sourceTree = "<group>";
+		};
+		624E43D7AEFB14ADB88EFF95 = {
+			isa = PBXGroup;
+			children = (
+				FBA7B7FE77CF194931B4CCBC /* Podfile */,
+				CB2285B131D9CB95CEE5C410 /* Frameworks */,
+				D93027E23E1006AEB406D4AD /* Pods */,
+				80726A35B2F0A452023DF2B9 /* Products */,
+				44604EF351E8197864731155 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80726A35B2F0A452023DF2B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A2CA8AB67E440FC9E49641 /* libPods-youtube-app-syncano.a */,
+				2A43CD692637BD2A6C75FBD6 /* libPods-youtube-app-syncano-AFNetworking.a */,
+				27DBC9BC34CC106C1DB8BEB4 /* libPods-youtube-app-syncano-Mantle.a */,
+				D82306E1E0F0B8C71A425C56 /* libPods-youtube-app-syncano-UICKeyChainStore.a */,
+				A7830CC1A0E6B70D24C64188 /* libPods-youtube-app-syncano-XCDYouTubeKit.a */,
+				CDDF34EE75383185434B9DFE /* libPods-youtube-app-syncano-syncano-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846F63297FDA2F693E1552DC /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				BDDA6562C5F31E848193A3A8 /* AFSecurityPolicy.h */,
+				D06E4E8E40961678E0C33DF6 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		85A36992016DA829E5648FF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30B8922AE13BBBFB57DC0530 /* Pods-youtube-app-syncano-UICKeyChainStore.xcconfig */,
+				325E96E5A597F2CFE757C0E2 /* Pods-youtube-app-syncano-UICKeyChainStore-Private.xcconfig */,
+				A2E5CDA2E92615ED33EB986E /* Pods-youtube-app-syncano-UICKeyChainStore-dummy.m */,
+				FB8E4B872D1AB11A8BF1A8F1 /* Pods-youtube-app-syncano-UICKeyChainStore-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-youtube-app-syncano-UICKeyChainStore";
+			sourceTree = "<group>";
+		};
+		8646A2A9897D214423AE59E3 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				E3C1D432491C301F00CC9729 /* AFURLRequestSerialization.h */,
+				E95E546E42383A2F16F4C464 /* AFURLRequestSerialization.m */,
+				EE71FC33776CE08AC18A2005 /* AFURLResponseSerialization.h */,
+				B87E87FCD39EE714AC915E6F /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		87F05458853EC90DE35E677A /* Pods-youtube-app-syncano */ = {
+			isa = PBXGroup;
+			children = (
+				1DD82B4297A6FDA945AA3626 /* Pods-youtube-app-syncano-acknowledgements.markdown */,
+				E6713C6F95A243B371E55655 /* Pods-youtube-app-syncano-acknowledgements.plist */,
+				7BCDE8C01D378D4DC992307D /* Pods-youtube-app-syncano-dummy.m */,
+				48038A7030995B63160854E8 /* Pods-youtube-app-syncano-environment.h */,
+				11465EB46DA335B984615EDB /* Pods-youtube-app-syncano-resources.sh */,
+				AC844527134AC07C00D8B02D /* Pods-youtube-app-syncano.debug.xcconfig */,
+				E143580D58129FDE7247500D /* Pods-youtube-app-syncano.release.xcconfig */,
+			);
+			name = "Pods-youtube-app-syncano";
+			path = "Target Support Files/Pods-youtube-app-syncano";
+			sourceTree = "<group>";
+		};
+		9089258EAF61D40CE9E03574 /* syncano-ios */ = {
+			isa = PBXGroup;
+			children = (
+				8F44523D2139B5864C84C2B5 /* NSObject+SCParseHelper.h */,
+				BF168C5A7508FEBC06054F72 /* NSObject+SCParseHelper.m */,
+				2F1AA6C89B2F6898A68A461C /* SCAPIClient.h */,
+				DEA645A8C930D7E5F47429DA /* SCAPIClient.m */,
+				84EB239B4D4D6C5CA1F69A2A /* SCAPIClient+Class.h */,
+				7E25928B52847763A3BB083C /* SCAPIClient+Class.m */,
+				F483CE8EB249EE01E2C90081 /* SCAPIClient+SCDataObject.h */,
+				BCE07CD306D270D5181BC7D6 /* SCAPIClient+SCDataObject.m */,
+				76DE7945ED71197BFED02A15 /* SCAPIClient+SCFile.h */,
+				097154DB116E571548B4C2D0 /* SCAPIClient+SCFile.m */,
+				8333A3EB56B1EE94E53B8E0D /* SCChannel.h */,
+				DA900E452A798CB6E94918E1 /* SCChannel.m */,
+				1BB05E8BB887F0C8BBC2AB18 /* SCChannelDelegate.h */,
+				C4077CB95C17AE6FF006D31A /* SCChannelNotificationMessage.h */,
+				68D35BE808C0761A1AAD0D1F /* SCChannelNotificationMessage.m */,
+				BF5496BE2D0556E60E972C90 /* SCCodeBox.h */,
+				443FE9B2EB8E9978E1CE65E3 /* SCCodeBox.m */,
+				CE54C85586B029F03E1F3C75 /* SCConstants.h */,
+				F1ECA23D85A546E1BE551034 /* SCConstants.m */,
+				E96D76A30AF226E82A5F66BC /* SCDataObject.h */,
+				5A881953831C53294CE7D820 /* SCDataObject.m */,
+				E5B5B2BB242042FE45E06CB4 /* SCFile.h */,
+				097C5A21548B3AD5D4AD5F3E /* SCFile.m */,
+				BF58AF99D882FFCD36FEAC96 /* SCJSONResponseSerializer.h */,
+				8D49EF916FA0CAB809E879D9 /* SCJSONResponseSerializer.m */,
+				FFF76FFB68B7438F7DBB37B0 /* SCMacros.h */,
+				C6639E090FEA2E24A578CA0A /* SCParseManager.h */,
+				E56A3B1A79935231CD3EDDB5 /* SCParseManager.m */,
+				38A111BDDC06DBD0A0C108EF /* SCParseManager+SCDataObject.h */,
+				61CF90E750F6871CA1A1EA3B /* SCParseManager+SCDataObject.m */,
+				9346327D479F7C6B80FE6386 /* SCParseManager+SCUser.h */,
+				F3902EBE09530747E6F687ED /* SCParseManager+SCUser.m */,
+				40B729A94CF88AA204B05524 /* SCPlease.h */,
+				DF7400677168321ADFE7E44F /* SCPlease.m */,
+				7EEB7785A4A2111DDF465434 /* SCPredicate.h */,
+				FFDA884006DAB7BE214F8F2F /* SCPredicate.m */,
+				C7C292877EA01D2B743EE4BD /* SCSchema.h */,
+				61A2D91312E46456D383F29A /* SCSchema.m */,
+				A2BE66C297719F287C203C01 /* SCTrace.h */,
+				517A6EF58C546605CCA56749 /* SCTrace.m */,
+				3C64CDA2410978DC15749C09 /* SCUser.h */,
+				2E6641D939DC1763F36EBE09 /* SCUser.m */,
+				45F78D43BD838F65705600D1 /* SCUserProfile.h */,
+				AE28FE6BE4147A5E67C65774 /* SCUserProfile.m */,
+				91044EFA1464791DF0A926AA /* SCWebhook.h */,
+				ABA2E1359D1CE609DA57690E /* SCWebhook.m */,
+				28F3185FF02BAAA2ECFCF05C /* SCWebhookResponseObject.h */,
+				9DC0B9C4EA4463DC38E85C19 /* SCWebhookResponseObject.m */,
+				ED913E3CF1B1B7DFDDF150B4 /* Syncano.h */,
+				1BBEB20EB85DE4250982B726 /* Syncano.m */,
+				323267384F8A29F3C2424DD8 /* Support Files */,
+			);
+			path = "syncano-ios";
+			sourceTree = "<group>";
+		};
+		92081905F37E8B5BA90CE872 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				CA30A7912738E56D9C1A69A4 /* AFHTTPRequestOperation.h */,
+				D378D02F2FCD0F19D05FAE66 /* AFHTTPRequestOperation.m */,
+				1866AC84A686A3F281B0AABA /* AFHTTPRequestOperationManager.h */,
+				ED5189BBCE47B66E33796C36 /* AFHTTPRequestOperationManager.m */,
+				1C1300A6E24263C08418A719 /* AFURLConnectionOperation.h */,
+				90535AE17E01560CC1A1124F /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		97E9B46A2F5F09916C2C9AF2 /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				30C15B74B20F514D7F664144 /* EXTKeyPathCoding.h */,
+				83CAD52D9B30500311F6C0C8 /* EXTRuntimeExtensions.h */,
+				BDD69898D7BDD8BFDC4FC5B8 /* EXTRuntimeExtensions.m */,
+				F5236953D3AE13E7E5B240C8 /* EXTScope.h */,
+				5F00C6D0A5A6143204020974 /* EXTScope.m */,
+				46A542685B6823508C357AE3 /* metamacros.h */,
+			);
+			name = extobjc;
+			sourceTree = "<group>";
+		};
+		BC32E7DFDF0E86D094A9372E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FC28EAE6C55F502828345F6 /* Pods-youtube-app-syncano-XCDYouTubeKit.xcconfig */,
+				0F29C0034D2E62E388A4C4C4 /* Pods-youtube-app-syncano-XCDYouTubeKit-Private.xcconfig */,
+				1D1055BB2D3EDCBB0793F382 /* Pods-youtube-app-syncano-XCDYouTubeKit-dummy.m */,
+				24332B105FD4A4AC03C55E30 /* Pods-youtube-app-syncano-XCDYouTubeKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-youtube-app-syncano-XCDYouTubeKit";
+			sourceTree = "<group>";
+		};
+		BD543BC79DC5850C57A2D7C2 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FB8B7C5A72CC311B1043A010 /* AFNetworking.h */,
+				92081905F37E8B5BA90CE872 /* NSURLConnection */,
+				245743DCA32B2A310AB01B7F /* NSURLSession */,
+				169EC94DB5D4EA33BF1A7DA6 /* Reachability */,
+				846F63297FDA2F693E1552DC /* Security */,
+				8646A2A9897D214423AE59E3 /* Serialization */,
+				03E15526546244E3784D4318 /* Support Files */,
+				2620F6E6FA6062570BA4F133 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CB2285B131D9CB95CEE5C410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2736C5C19A75C8D0D88B8450 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D93027E23E1006AEB406D4AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD543BC79DC5850C57A2D7C2 /* AFNetworking */,
+				2BDB92CD717C5F8A67CCFA9C /* Mantle */,
+				31862F9F9ED153A2CD4C701B /* UICKeyChainStore */,
+				5C22CC61EAF115C41E315A70 /* XCDYouTubeKit */,
+				9089258EAF61D40CE9E03574 /* syncano-ios */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1453D93F4EC81D70471396DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADE5DFCA63C8F35C7FC9978 /* AFHTTPRequestOperation.h in Headers */,
+				3330A30D28E675F5697595C9 /* AFHTTPRequestOperationManager.h in Headers */,
+				24ED1F4B82B1DE0014B318BE /* AFHTTPSessionManager.h in Headers */,
+				B9E259C6D31F808F46AE81F6 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				EC5CFA341703F4DAD1893972 /* AFNetworkReachabilityManager.h in Headers */,
+				95FAC7EE394B60578C572DA0 /* AFNetworking.h in Headers */,
+				CC1A12B6914CA2C77316E834 /* AFSecurityPolicy.h in Headers */,
+				07BD035FD85F46BCEC3E08C4 /* AFURLConnectionOperation.h in Headers */,
+				8BDC6F513AEE93B441862D1C /* AFURLRequestSerialization.h in Headers */,
+				4D4E6E1F1879CF5CEC446CDB /* AFURLResponseSerialization.h in Headers */,
+				A7E43EC317CD3BBF6FA7B95A /* AFURLSessionManager.h in Headers */,
+				74202372D7026AA4CE360A35 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				059F6BBF54F75E1F45E00596 /* UIAlertView+AFNetworking.h in Headers */,
+				70FDE01DB0B30A6A682884C6 /* UIButton+AFNetworking.h in Headers */,
+				602F944888197120E8EE51E4 /* UIImage+AFNetworking.h in Headers */,
+				9B4A46A95DDAAC45BF2F9242 /* UIImageView+AFNetworking.h in Headers */,
+				B4179969233F3E27B6F9883C /* UIKit+AFNetworking.h in Headers */,
+				EA97B701AE6FD661CB036C68 /* UIProgressView+AFNetworking.h in Headers */,
+				34AAB77414DE2FF111F2EFFA /* UIRefreshControl+AFNetworking.h in Headers */,
+				0275F6458E6FFDAADAB457F1 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C330E408A9513B6A2E9453 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090DD8C0F902059622E497DA /* EXTKeyPathCoding.h in Headers */,
+				089046F0153CC7642591D731 /* EXTRuntimeExtensions.h in Headers */,
+				AE7A1C1B03E564E385D0AB4B /* EXTScope.h in Headers */,
+				FB16D9C694A09D95BAF0AF4B /* MTLJSONAdapter.h in Headers */,
+				AB1F8138035E10C8A830F0AC /* MTLModel+NSCoding.h in Headers */,
+				971AD80F28504FF936851814 /* MTLModel.h in Headers */,
+				C35CAB4163E8EB944AAB8855 /* MTLReflection.h in Headers */,
+				8965C8C95262C9A5ECE9DF22 /* MTLTransformerErrorHandling.h in Headers */,
+				4575535F9594D61E4D68A590 /* MTLValueTransformer.h in Headers */,
+				2A72A0DFDE10796AA9F70867 /* Mantle.h in Headers */,
+				FC95353276AE351963FB3D94 /* NSArray+MTLManipulationAdditions.h in Headers */,
+				F300D55597A5D74FB71FA463 /* NSDictionary+MTLJSONKeyPath.h in Headers */,
+				4BF704C7F2E2E31E8310A025 /* NSDictionary+MTLManipulationAdditions.h in Headers */,
+				011AC877281B937BADBD6F9B /* NSDictionary+MTLMappingAdditions.h in Headers */,
+				0FF99B909F802268D4F05CEB /* NSError+MTLModelException.h in Headers */,
+				36070344CD6B5D6E5E50ACE8 /* NSObject+MTLComparisonAdditions.h in Headers */,
+				45205B3115BAE2754F9CCF77 /* NSValueTransformer+MTLInversionAdditions.h in Headers */,
+				7FDFAC32880A97193C199215 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */,
+				3F0C8108683DA95243C35263 /* metamacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4183A169D7CB0FFDB43CB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FF8F0B2FB7A07ECF3B7B8A /* XCDYouTubeClient.h in Headers */,
+				E8F13C02164CDE5DD34E7CD1 /* XCDYouTubeError.h in Headers */,
+				CAD20001A5033BD6FFFFFA2D /* XCDYouTubeKit.h in Headers */,
+				89C9D1191F4825462F00E5ED /* XCDYouTubeLogger.h in Headers */,
+				B7616FB0349C08822C27565B /* XCDYouTubeOperation.h in Headers */,
+				4285C8D80EBC32646BDE1A44 /* XCDYouTubePlayerScript.h in Headers */,
+				C60A3192BC408509FFE63156 /* XCDYouTubeVideo+Private.h in Headers */,
+				45CE2EF8BC70497AEC4989D0 /* XCDYouTubeVideo.h in Headers */,
+				AE507C6541600B8C2C16F095 /* XCDYouTubeVideoOperation.h in Headers */,
+				F77866A54A1938089882D196 /* XCDYouTubeVideoPlayerViewController.h in Headers */,
+				025CC17928475AEEC40B429D /* XCDYouTubeVideoWebpage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732A8847034316C9CE57C0FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67DBC27A7754FB06D756C1A6 /* NSObject+SCParseHelper.h in Headers */,
+				6CF267E70042CB38F82E538C /* SCAPIClient+Class.h in Headers */,
+				0F436B5069B40D1FC9AE96B3 /* SCAPIClient+SCDataObject.h in Headers */,
+				AEDF8024FF2CA342707D94A3 /* SCAPIClient+SCFile.h in Headers */,
+				3319CA5140ABF22CC94CD8CF /* SCAPIClient.h in Headers */,
+				715DC7CDA0BDC1B441378D90 /* SCChannel.h in Headers */,
+				AD42FDD4AA98D35046FD77DF /* SCChannelDelegate.h in Headers */,
+				9B2D2AEF6476AD07D22B03F3 /* SCChannelNotificationMessage.h in Headers */,
+				93C70F1F50BAE1F64DB03133 /* SCCodeBox.h in Headers */,
+				D47BE1119A5AEEF4CA6CFED3 /* SCConstants.h in Headers */,
+				83BCE9FE1AB1BBE71A8C3025 /* SCDataObject.h in Headers */,
+				E0E0515F2813E18DBFDF409A /* SCFile.h in Headers */,
+				8BB6DFF3CB834766DE2E8D43 /* SCJSONResponseSerializer.h in Headers */,
+				23965BE7A606E6EB18ADF6E3 /* SCMacros.h in Headers */,
+				65056F8CD76199F5316BD497 /* SCParseManager+SCDataObject.h in Headers */,
+				469804815BF07AFDDFBCFE66 /* SCParseManager+SCUser.h in Headers */,
+				785D4D9FD043D8274DF77293 /* SCParseManager.h in Headers */,
+				965C6DE94C90463393DB46F4 /* SCPlease.h in Headers */,
+				36B3E755D1926AB7F0074D52 /* SCPredicate.h in Headers */,
+				0C8AFF131473DF7827AE2526 /* SCSchema.h in Headers */,
+				4F1AC06CA6546EE74E47210B /* SCTrace.h in Headers */,
+				6DBF2F830672A0B6DD783EF2 /* SCUser.h in Headers */,
+				A18DC5E55D29999F42810F5F /* SCUserProfile.h in Headers */,
+				D34438EA99C989DAF71A9432 /* SCWebhook.h in Headers */,
+				6F28E761590C07F271740547 /* SCWebhookResponseObject.h in Headers */,
+				D1217FEFACB313DB605A5CD8 /* Syncano.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD498D7A3A5804C06821207 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAF972F2DD16455B370C5BB /* UICKeyChainStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D305EF999CA04B7F76DC7B3 /* Pods-youtube-app-syncano-XCDYouTubeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5372E54D8E2E69FB3CB0350 /* Build configuration list for PBXNativeTarget "Pods-youtube-app-syncano-XCDYouTubeKit" */;
+			buildPhases = (
+				75FBD24DFC1E58F6AC15A581 /* Sources */,
+				5F13DC2562BD8BC2B67DA44D /* Frameworks */,
+				5A4183A169D7CB0FFDB43CB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-youtube-app-syncano-XCDYouTubeKit";
+			productName = "Pods-youtube-app-syncano-XCDYouTubeKit";
+			productReference = A7830CC1A0E6B70D24C64188 /* libPods-youtube-app-syncano-XCDYouTubeKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5274005284B25AFB876C1038 /* Pods-youtube-app-syncano-UICKeyChainStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3C4F3A32173B4759B8DDAD /* Build configuration list for PBXNativeTarget "Pods-youtube-app-syncano-UICKeyChainStore" */;
+			buildPhases = (
+				6236691DD8006694F5C5C839 /* Sources */,
+				2B4F7696C49798D9CB5BBD9E /* Frameworks */,
+				EDD498D7A3A5804C06821207 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-youtube-app-syncano-UICKeyChainStore";
+			productName = "Pods-youtube-app-syncano-UICKeyChainStore";
+			productReference = D82306E1E0F0B8C71A425C56 /* libPods-youtube-app-syncano-UICKeyChainStore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A5EB98E2C66629A8DF1823FB /* Pods-youtube-app-syncano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BB0B62EBBFDFF3BE5FA71F /* Build configuration list for PBXNativeTarget "Pods-youtube-app-syncano" */;
+			buildPhases = (
+				45AB9181B6E48A5D5E537A80 /* Sources */,
+				465439D9C10B62EF1C295610 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB63A051867F2F34E4F2CB90 /* PBXTargetDependency */,
+				C42692E992669D6F4D77AF00 /* PBXTargetDependency */,
+				F8BDC57387F94EEC6274042B /* PBXTargetDependency */,
+				E44AFE5285D991EC8D123FA3 /* PBXTargetDependency */,
+				BF1AF917A8DA87C83B0F2C38 /* PBXTargetDependency */,
+			);
+			name = "Pods-youtube-app-syncano";
+			productName = "Pods-youtube-app-syncano";
+			productReference = 89A2CA8AB67E440FC9E49641 /* libPods-youtube-app-syncano.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DFACB756A30D3C868DF58594 /* Pods-youtube-app-syncano-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B196D9EE583AF63494CC64 /* Build configuration list for PBXNativeTarget "Pods-youtube-app-syncano-AFNetworking" */;
+			buildPhases = (
+				28FEADBE2E3C595488656D0B /* Sources */,
+				ECD68808F502977C9010E2F1 /* Frameworks */,
+				1453D93F4EC81D70471396DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-youtube-app-syncano-AFNetworking";
+			productName = "Pods-youtube-app-syncano-AFNetworking";
+			productReference = 2A43CD692637BD2A6C75FBD6 /* libPods-youtube-app-syncano-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E67E38EA0D484A9A2A5607A4 /* Pods-youtube-app-syncano-syncano-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BDADAEFDA3ACB6D9C3A7248 /* Build configuration list for PBXNativeTarget "Pods-youtube-app-syncano-syncano-ios" */;
+			buildPhases = (
+				9E32FD5DED1C449E09DA2E44 /* Sources */,
+				6BA61774B03A5D58FCBE33D8 /* Frameworks */,
+				732A8847034316C9CE57C0FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853FC5C6B38FC7F984E4BF2F /* PBXTargetDependency */,
+				919CE5E0DF1E5AE56E121591 /* PBXTargetDependency */,
+				00D479ACE13AB23B2242BEF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-youtube-app-syncano-syncano-ios";
+			productName = "Pods-youtube-app-syncano-syncano-ios";
+			productReference = CDDF34EE75383185434B9DFE /* libPods-youtube-app-syncano-syncano-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F5DAE9B086A8F98F55595477 /* Pods-youtube-app-syncano-Mantle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C7E04AAC5A306D4CDB361E /* Build configuration list for PBXNativeTarget "Pods-youtube-app-syncano-Mantle" */;
+			buildPhases = (
+				11B2A4DFE10604D2FD9143E0 /* Sources */,
+				040D076D4FFD010A67B87EBA /* Frameworks */,
+				38C330E408A9513B6A2E9453 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-youtube-app-syncano-Mantle";
+			productName = "Pods-youtube-app-syncano-Mantle";
+			productReference = 27DBC9BC34CC106C1DB8BEB4 /* libPods-youtube-app-syncano-Mantle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44C50EBB1CD039F91D02A15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = FAB7F6B0EDF90DE0160475BE /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 624E43D7AEFB14ADB88EFF95;
+			productRefGroup = 80726A35B2F0A452023DF2B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5EB98E2C66629A8DF1823FB /* Pods-youtube-app-syncano */,
+				DFACB756A30D3C868DF58594 /* Pods-youtube-app-syncano-AFNetworking */,
+				F5DAE9B086A8F98F55595477 /* Pods-youtube-app-syncano-Mantle */,
+				5274005284B25AFB876C1038 /* Pods-youtube-app-syncano-UICKeyChainStore */,
+				3D305EF999CA04B7F76DC7B3 /* Pods-youtube-app-syncano-XCDYouTubeKit */,
+				E67E38EA0D484A9A2A5607A4 /* Pods-youtube-app-syncano-syncano-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B2A4DFE10604D2FD9143E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE3DA3B8E1AEF2B1B6879CF /* EXTRuntimeExtensions.m in Sources */,
+				7C88E057A63ED35C839F0347 /* EXTScope.m in Sources */,
+				1E8FB43FB5230549581534D0 /* MTLJSONAdapter.m in Sources */,
+				0E0F444EB04AF86165C59183 /* MTLModel+NSCoding.m in Sources */,
+				E3EAB311E0064CB13960E00E /* MTLModel.m in Sources */,
+				4BFA3A647B6EF503E5494B38 /* MTLReflection.m in Sources */,
+				3289FB502D5454436FA75457 /* MTLTransformerErrorHandling.m in Sources */,
+				3848520F566825C470AD7309 /* MTLValueTransformer.m in Sources */,
+				386A4F97F1C690835A1B4EC1 /* NSArray+MTLManipulationAdditions.m in Sources */,
+				0C466741487C5056D495A0D3 /* NSDictionary+MTLJSONKeyPath.m in Sources */,
+				5A0FAAF7BCA3C10BB4C27358 /* NSDictionary+MTLManipulationAdditions.m in Sources */,
+				5A3557E019F6D2158497B5CF /* NSDictionary+MTLMappingAdditions.m in Sources */,
+				5F04B1892D3D7EAA0084C545 /* NSError+MTLModelException.m in Sources */,
+				382BB053712CA1663D19F8FA /* NSObject+MTLComparisonAdditions.m in Sources */,
+				A2013E131A9A746BCC807B47 /* NSValueTransformer+MTLInversionAdditions.m in Sources */,
+				64BC3946D7B5CEB3D60F3F4B /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
+				1012C6BD499B792D0701C7B0 /* Pods-youtube-app-syncano-Mantle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEADBE2E3C595488656D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBC5CE691B178EA65ED0B9B /* AFHTTPRequestOperation.m in Sources */,
+				887943B6D7FFD94D03021434 /* AFHTTPRequestOperationManager.m in Sources */,
+				B7F33C8388E7E45D76369C2C /* AFHTTPSessionManager.m in Sources */,
+				BB9F6A0EF87C961F496CF58C /* AFNetworkActivityIndicatorManager.m in Sources */,
+				CC3C184D0DA8DB44B70F2E94 /* AFNetworkReachabilityManager.m in Sources */,
+				9D3163DFA75C347BE5FB9CA9 /* AFSecurityPolicy.m in Sources */,
+				077848768322397C71A92CA7 /* AFURLConnectionOperation.m in Sources */,
+				C93A5F4522AAB68F0110EF13 /* AFURLRequestSerialization.m in Sources */,
+				C13ADBEE02976ED7C2129235 /* AFURLResponseSerialization.m in Sources */,
+				7FC15E2DF8B19A4C67F5378D /* AFURLSessionManager.m in Sources */,
+				3CD5941C1D6D940D57B87D84 /* Pods-youtube-app-syncano-AFNetworking-dummy.m in Sources */,
+				504D5C65AA07A8B1C902C65C /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				CA708305FCA906EA4FBF488C /* UIAlertView+AFNetworking.m in Sources */,
+				220E5DA7C77BEB9292DCDAB5 /* UIButton+AFNetworking.m in Sources */,
+				E61C21DF334D8B8F3E409CA4 /* UIImageView+AFNetworking.m in Sources */,
+				53ED4A1317EFBDF539E27E08 /* UIProgressView+AFNetworking.m in Sources */,
+				BB5E2FB6378811124572C8CD /* UIRefreshControl+AFNetworking.m in Sources */,
+				DA71D9B34B92C86B40C8D95A /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AB9181B6E48A5D5E537A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE24A765FF34860B602DBAA /* Pods-youtube-app-syncano-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6236691DD8006694F5C5C839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0777A1FB293F2CB2C3755370 /* Pods-youtube-app-syncano-UICKeyChainStore-dummy.m in Sources */,
+				88365852E4D5D8D458CE63EA /* UICKeyChainStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FBD24DFC1E58F6AC15A581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E0206ED074336781CECF2D /* Pods-youtube-app-syncano-XCDYouTubeKit-dummy.m in Sources */,
+				8BCFF0707E893C9DC22A1AEE /* XCDYouTubeClient.m in Sources */,
+				514F65825D5442257C228DBA /* XCDYouTubeLogger.m in Sources */,
+				499E6371ABD2BC8A06B18616 /* XCDYouTubePlayerScript.m in Sources */,
+				440BABD287095DD6C54A12DD /* XCDYouTubeVideo.m in Sources */,
+				F765B0C30C1660F2275B5E3F /* XCDYouTubeVideoOperation.m in Sources */,
+				A504835B80BD412E75A19429 /* XCDYouTubeVideoPlayerViewController.m in Sources */,
+				5D1F7E4D2EFC28EE07E95689 /* XCDYouTubeVideoWebpage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E32FD5DED1C449E09DA2E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673182FF32B584F7BC205696 /* NSObject+SCParseHelper.m in Sources */,
+				F69AB8C589712E6D116FE62E /* Pods-youtube-app-syncano-syncano-ios-dummy.m in Sources */,
+				2AD1BCCBC5FA6C446AE55A11 /* SCAPIClient+Class.m in Sources */,
+				FFE0D2272A1A88FD62327BDB /* SCAPIClient+SCDataObject.m in Sources */,
+				28589D52D5C559F65064AF08 /* SCAPIClient+SCFile.m in Sources */,
+				81771D73E935313E73B5559D /* SCAPIClient.m in Sources */,
+				E122AE052A1C56EBE2B22170 /* SCChannel.m in Sources */,
+				90A189288619505ADC84514E /* SCChannelNotificationMessage.m in Sources */,
+				BF622280B396AD95C5186755 /* SCCodeBox.m in Sources */,
+				33036ED15867F884F314C575 /* SCConstants.m in Sources */,
+				7AECF4CE7A9C81FC3FE663D1 /* SCDataObject.m in Sources */,
+				DD23765CDF10ADB960D24C6D /* SCFile.m in Sources */,
+				D52BFDBCF5451FB85F267718 /* SCJSONResponseSerializer.m in Sources */,
+				7BF912C0B8108C48F29A5126 /* SCParseManager+SCDataObject.m in Sources */,
+				CFB34B45FFCB15BECEBF2478 /* SCParseManager+SCUser.m in Sources */,
+				4D950DBDA803CBE85120AC98 /* SCParseManager.m in Sources */,
+				5C0052E7FC396C3BD290B623 /* SCPlease.m in Sources */,
+				E27745F565BB71D2ACA1A1A9 /* SCPredicate.m in Sources */,
+				FCDB901176A5B19AA34CB5A4 /* SCSchema.m in Sources */,
+				65EE218B2B7A88A0435D6274 /* SCTrace.m in Sources */,
+				A444414CED0A28FD7E551FE3 /* SCUser.m in Sources */,
+				651300D6A4F246956951F91D /* SCUserProfile.m in Sources */,
+				98430BDE9D990D4816A4A7DB /* SCWebhook.m in Sources */,
+				06E7165870AB5C0701C837B2 /* SCWebhookResponseObject.m in Sources */,
+				4F894C7AFF7F5D00214D1B86 /* Syncano.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00D479ACE13AB23B2242BEF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-youtube-app-syncano-UICKeyChainStore";
+			target = 5274005284B25AFB876C1038 /* Pods-youtube-app-syncano-UICKeyChainStore */;
+			targetProxy = 4E3FFD02A038BF89090F11E0 /* PBXContainerItemProxy */;
+		};
+		853FC5C6B38FC7F984E4BF2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-youtube-app-syncano-AFNetworking";
+			target = DFACB756A30D3C868DF58594 /* Pods-youtube-app-syncano-AFNetworking */;
+			targetProxy = 9C5C01BBF8A7C256F41B346F /* PBXContainerItemProxy */;
+		};
+		919CE5E0DF1E5AE56E121591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-youtube-app-syncano-Mantle";
+			target = F5DAE9B086A8F98F55595477 /* Pods-youtube-app-syncano-Mantle */;
+			targetProxy = 36E3175B4433C446A789632E /* PBXContainerItemProxy */;
+		};
+		BF1AF917A8DA87C83B0F2C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-youtube-app-syncano-syncano-ios";
+			target = E67E38EA0D484A9A2A5607A4 /* Pods-youtube-app-syncano-syncano-ios */;
+			targetProxy = F04BFA0A7B0FF6B17132839D /* PBXContainerItemProxy */;
+		};
+		C42692E992669D6F4D77AF00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-youtube-app-syncano-Mantle";
+			target = F5DAE9B086A8F98F55595477 /* Pods-youtube-app-syncano-Mantle */;
+			targetProxy = D5A25B9C7EB13FD0ED6A08E7 /* PBXContainerItemProxy */;
+		};
+		DB63A051867F2F34E4F2CB90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-youtube-app-syncano-AFNetworking";
+			target = DFACB756A30D3C868DF58594 /* Pods-youtube-app-syncano-AFNetworking */;
+			targetProxy = 11650A02267963C4153D9E30 /* PBXContainerItemProxy */;
+		};
+		E44AFE5285D991EC8D123FA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-youtube-app-syncano-XCDYouTubeKit";
+			target = 3D305EF999CA04B7F76DC7B3 /* Pods-youtube-app-syncano-XCDYouTubeKit */;
+			targetProxy = F7821A1E24447BDB22488D33 /* PBXContainerItemProxy */;
+		};
+		F8BDC57387F94EEC6274042B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-youtube-app-syncano-UICKeyChainStore";
+			target = 5274005284B25AFB876C1038 /* Pods-youtube-app-syncano-UICKeyChainStore */;
+			targetProxy = A77D8D57247DF29C7AD17113 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		094F9C4417CEE8B9D7B8B213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E143580D58129FDE7247500D /* Pods-youtube-app-syncano.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1F922F015E0AFF025603F3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F29C0034D2E62E388A4C4C4 /* Pods-youtube-app-syncano-XCDYouTubeKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-youtube-app-syncano-XCDYouTubeKit/Pods-youtube-app-syncano-XCDYouTubeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3B7C4AABEAC10E47A12F850A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D704C00A41827B52C8F3C0A2 /* Pods-youtube-app-syncano-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-youtube-app-syncano-AFNetworking/Pods-youtube-app-syncano-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		429A46BBBFDBC109F7A78472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325E96E5A597F2CFE757C0E2 /* Pods-youtube-app-syncano-UICKeyChainStore-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-youtube-app-syncano-UICKeyChainStore/Pods-youtube-app-syncano-UICKeyChainStore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		75028E13A958C8D10A43861A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325E96E5A597F2CFE757C0E2 /* Pods-youtube-app-syncano-UICKeyChainStore-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-youtube-app-syncano-UICKeyChainStore/Pods-youtube-app-syncano-UICKeyChainStore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BBE3E797C66B38962C5E519A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8789EA6CAD90A61FC747EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D704C00A41827B52C8F3C0A2 /* Pods-youtube-app-syncano-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-youtube-app-syncano-AFNetworking/Pods-youtube-app-syncano-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CA137E4C45F9158D20529388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F29C0034D2E62E388A4C4C4 /* Pods-youtube-app-syncano-XCDYouTubeKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-youtube-app-syncano-XCDYouTubeKit/Pods-youtube-app-syncano-XCDYouTubeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D4A2D975A9FAECB91C3D8753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB8DCD7D6AB7137B9C80280 /* Pods-youtube-app-syncano-Mantle-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-youtube-app-syncano-Mantle/Pods-youtube-app-syncano-Mantle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E4FA939846D419AB4012A75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C458A70410BE9F1974AB0B6 /* Pods-youtube-app-syncano-syncano-ios-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-youtube-app-syncano-syncano-ios/Pods-youtube-app-syncano-syncano-ios-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E7044D0013AD8C755F941A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FBE9CA03B6DD63817EF91176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C458A70410BE9F1974AB0B6 /* Pods-youtube-app-syncano-syncano-ios-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-youtube-app-syncano-syncano-ios/Pods-youtube-app-syncano-syncano-ios-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FCFCF7BF737BCE897EDB0E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC844527134AC07C00D8B02D /* Pods-youtube-app-syncano.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD654EB6A2E38C39B376A741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB8DCD7D6AB7137B9C80280 /* Pods-youtube-app-syncano-Mantle-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-youtube-app-syncano-Mantle/Pods-youtube-app-syncano-Mantle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C3C4F3A32173B4759B8DDAD /* Build configuration list for PBXNativeTarget "Pods-youtube-app-syncano-UICKeyChainStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75028E13A958C8D10A43861A /* Debug */,
+				429A46BBBFDBC109F7A78472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BDADAEFDA3ACB6D9C3A7248 /* Build configuration list for PBXNativeTarget "Pods-youtube-app-syncano-syncano-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FA939846D419AB4012A75F /* Debug */,
+				FBE9CA03B6DD63817EF91176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B196D9EE583AF63494CC64 /* Build configuration list for PBXNativeTarget "Pods-youtube-app-syncano-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8789EA6CAD90A61FC747EFA /* Debug */,
+				3B7C4AABEAC10E47A12F850A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BB0B62EBBFDFF3BE5FA71F /* Build configuration list for PBXNativeTarget "Pods-youtube-app-syncano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFCF7BF737BCE897EDB0E01 /* Debug */,
+				094F9C4417CEE8B9D7B8B213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5372E54D8E2E69FB3CB0350 /* Build configuration list for PBXNativeTarget "Pods-youtube-app-syncano-XCDYouTubeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA137E4C45F9158D20529388 /* Debug */,
+				1F922F015E0AFF025603F3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C7E04AAC5A306D4CDB361E /* Build configuration list for PBXNativeTarget "Pods-youtube-app-syncano-Mantle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A2D975A9FAECB91C3D8753 /* Debug */,
+				FD654EB6A2E38C39B376A741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB7F6B0EDF90DE0160475BE /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7044D0013AD8C755F941A11 /* Debug */,
+				BBE3E797C66B38962C5E519A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44C50EBB1CD039F91D02A15 /* Project object */;
+}
