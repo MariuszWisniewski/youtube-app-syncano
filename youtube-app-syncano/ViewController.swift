@@ -32,6 +32,9 @@ class ViewController: UIViewController {
     
     func downloadVideosFromSyncano() {
         Video.please().giveMeDataObjectsWithCompletion { youtubeVideos, error in
+            if (youtubeVideos == nil) {
+                return;
+            }
             self.videos.removeAll(keepCapacity: true)
             for item in youtubeVideos {
                 if let video = item as? Video {
@@ -45,6 +48,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
         if let sourceId = self.videos[indexPath.row].source_id {
             let videoPlayerViewController = XCDYouTubeVideoPlayerViewController(videoIdentifier: sourceId)
             self.presentMoviePlayerViewControllerAnimated(videoPlayerViewController)
