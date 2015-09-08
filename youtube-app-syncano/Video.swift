@@ -9,9 +9,17 @@
 import UIKit
 
 class Video: SCDataObject {
-    var published_at : NSDate?
-    var video_description : String?
+    var publishedAt : NSDate?
+    var videoDescription : String?
     var title : String?
     var url : String?
-    var source_id : String?
+    var sourceId : String?
+    
+    override class func extendedPropertiesMapping() -> [NSObject: AnyObject] {
+        return [
+            "publishedAt": "published_at",
+            "videoDescription" : "video_description",
+            "sourceId" : "source_id"
+        ]
+    }
 }

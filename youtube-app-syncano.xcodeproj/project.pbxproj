@@ -91,13 +91,13 @@
 			children = (
 				15900F261B97B3E30090DE1F /* AppDelegate.swift */,
 				15900F2B1B97B3E30090DE1F /* ViewController.swift */,
+				15900F4D1B97B5640090DE1F /* Video.swift */,
 				15900F2D1B97B3E30090DE1F /* Main.storyboard */,
 				15900F301B97B3E30090DE1F /* Images.xcassets */,
 				15900F321B97B3E30090DE1F /* LaunchScreen.xib */,
 				15900F281B97B3E30090DE1F /* youtube_app_syncano.xcdatamodeld */,
 				15900F241B97B3E30090DE1F /* Supporting Files */,
 				15900F491B97B45E0090DE1F /* youtube-app-syncano-Bridging-Header.h */,
-				15900F4D1B97B5640090DE1F /* Video.swift */,
 			);
 			path = "youtube-app-syncano";
 			sourceTree = "<group>";
