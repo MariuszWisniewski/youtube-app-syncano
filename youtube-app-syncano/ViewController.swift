@@ -28,12 +28,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.channel.delegate = self
+        self.channel.subscribeToChannel()
         self.downloadVideosFromSyncano()
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func removeVideoWithId(objectId: Int?) {
+        self.videos = self.videos.filter {
+            return $0.objectId != objectId
+        }
     }
 }
 
@@ -59,9 +66,14 @@ extension ViewController : SCChannelDelegate {
     func chanellDidReceivedNotificationMessage(notificationMessage: SCChannelNotificationMessage!) {
         switch(notificationMessage.action) {
         case .Create:
-            //TODO Create video from dictionary and add to the list
+            let video = Video.fromDictionary(notificationMessage.payload)
+            self.videos += [video]
+            self.tableView.reloadData()
+            self.tableView.scrollToRowAtIndexPath(NSIndexPath(forRow: (self.videos.count - 1), inSection: 0), atScrollPosition: .Bottom, animated: true)
             break
         case .Delete:
+            self.removeVideoWithId(notificationMessage.payload["id"] as! Int?)
+            self.tableView.reloadData()
             break
         case .Update:
             break
