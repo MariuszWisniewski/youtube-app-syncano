@@ -22,4 +22,9 @@ class Video: SCDataObject {
             "sourceId" : "source_id"
         ]
     }
+    
+    class func fromDictionary(dictionary: AnyObject!) -> Video {
+        let video = SCParseManager.sharedSCParseManager().parsedObjectOfClass(self.classForCoder(), fromJSONObject: dictionary) as! Video
+        return video
+    }
 }
